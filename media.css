@@ -397,7 +397,7 @@
         padding-top: 50px;
         padding-bottom: 34px;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr auto auto 1fr;
+        grid-template-rows: 1fr auto auto auto;
     }
 
     .projects__left__top{
@@ -410,18 +410,121 @@
         grid-template-rows: auto auto;
     }
 
+    .project__img__left1{
+        width: 278px;
+        height: 184px;
+        object-fit: cover;
+    }
+
+    .project__img__left2{
+        width: 278px;
+        height: 184px;
+        object-fit: cover;
+    }
+
+    .project__img__left3{
+        width: 278px;
+        height: 184px;
+        object-fit: cover;
+    }
+
+    .project__right__descr{
+        max-width: 218px;
+        font-size: 14px;
+    }
+
+    .project__left__descr{
+        max-width: 218px;
+        font-size: 14px;
+    }
+
+    .projects__right__top{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        min-height: 422px;
+        padding-bottom: 30px;
+    }
+
+    .project__left__bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        min-height: 422px;
+        padding-bottom: 30px;
+    }
+
+    .project__right__button{
+        margin-top: 16px;
+    }
+
+    .project__left__button{
+        margin-top: 23px;
+    }
+
 
     /* contacts */
 
 
     .contacts__container{
-        padding-left: 21px;
-        padding-right: 21px;
-        padding-bottom: 50px;
-    }
-
-    .map{
         padding-left: 0px;
         padding-right: 0px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .form{
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .banner{
+        padding-top: 26px;
+        padding-left: 19px;
+    }
+
+    .banner__title{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .banner__address{
+        width: 267px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+
+
+    /* footer */
+
+    .footer__container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 46px;
+        padding-top: 31px;
+        padding-bottom: 14px;
+    }
+    .footer__three{
+        order: 1;
+    }
+
+    .footer__one{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__hp__logo{
+        width: 111px;
+        height: 18px;
+
+    }
+
+    .footer__copyright{
+        font-size: 10px;
     }
 }
